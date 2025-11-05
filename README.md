@@ -275,6 +275,7 @@ docker-compose up -d
 
 ### Next Steps
 
+- **[🎓 Learning-by-Doing Tutorials](docs/tutorials/learning-by-doing/README.md)** - **NEW!** Comprehensive 3-phase tutorial (Beginner → Advanced)
 - **[📚 Full Installation Guide](docs/getting-started/01-installation.md)** - Detailed setup instructions
 - **[🎯 First Graph Tutorial](docs/getting-started/02-first-graph-and-agents.md)** - Create your first knowledge graph
 - **[🔧 Configuration Reference](docs/reference/configuration.md)** - Advanced configuration options

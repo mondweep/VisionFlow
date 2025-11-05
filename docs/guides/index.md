@@ -4,6 +4,12 @@ Welcome to the VisionFlow guides section. These practical, task-oriented guides 
 
 ## Quick Navigation
 
+### 📚 Learning VisionFlow
+- **[Learning-by-Doing Tutorials](../tutorials/learning-by-doing/README.md)** - Comprehensive 3-phase tutorial series (Beginner to Advanced)
+  - [Phase 1: Foundation and Confidence](../tutorials/learning-by-doing/phase-1-foundation.md) - Deploy and use VisionFlow
+  - [Phase 2: Core Architecture Deep Dive](../tutorials/learning-by-doing/phase-2-architecture.md) - Understand the codebase
+  - [Phase 3: Build a Feature](../tutorials/learning-by-doing/phase-3-build-feature.md) - Implement a custom semantic physics constraint
+
 ### 🚀 Getting Started
 - **[Deployment Guide](deployment.md)** - Deploy VisionFlow in various environments
 - **[Development Workflow](development-workflow.md)** - Best practices for developing with VisionFlow
@@ -18,6 +24,17 @@ Welcome to the VisionFlow guides section. These practical, task-oriented guides 
 - **[WebXR Implementation](xr-setup.md)** - VisionFlow WebXR technical reference
 
 ## Guide Overview
+
+### [Learning-by-Doing Tutorials](../tutorials/learning-by-doing/README.md)
+**NEW!** Comprehensive hands-on tutorial series following the Diátaxis framework:
+- **Phase 1 (1-2 hours)**: Deploy VisionFlow, create your first graph, interact with AI agents
+- **Phase 2 (3-4 hours)**: Explore the codebase, understand Hexagonal Architecture, trace CQRS operations
+- **Phase 3 (4-8 hours)**: Build a complete feature spanning Ontology → GPU → Server → Client
+
+Perfect for:
+- Developers new to VisionFlow who want structured learning
+- Contributors who want to understand the full stack
+- Anyone who learns best by building something real
 
 ### [Deployment Guide](deployment.md)
 Learn how to deploy VisionFlow in different environments:
