@@ -30,6 +30,10 @@ Transform how your team discovers knowledge with continuous AI analysis, GPU-acc
 - [Key Features](#-key-features)
 - [Project Structure](#-project-structure)
 - [Quick Start](#-quick-start)
+- [**Learning VisionFlow: Choose Your Path**](#-learning-visionflow-choose-your-path) ⭐ **NEW!**
+  - [Phase 1: Foundation & Confidence](#phase-1-foundation--confidence)
+  - [Phase 2: Architecture Deep Dive](#phase-2-architecture-deep-dive)
+  - [Phase 3: Build a Custom Feature](#phase-3-build-a-custom-feature)
 - [Architecture Overview](#-architecture-overview)
 - [Technology Stack](#-technology-stack)
 - [Performance Metrics](#-performance-metrics)
@@ -273,12 +277,75 @@ docker-compose up -d
 
 **That's it!** Your AI agent teams will begin analyzing your data immediately.
 
-### Next Steps
+---
 
-- **[🎓 Learning-by-Doing Tutorials](docs/tutorials/learning-by-doing/README.md)** - **NEW!** Comprehensive 3-phase tutorial (Beginner → Advanced)
-- **[📚 Full Installation Guide](docs/getting-started/01-installation.md)** - Detailed setup instructions
-- **[🎯 First Graph Tutorial](docs/getting-started/02-first-graph-and-agents.md)** - Create your first knowledge graph
+## 🎓 Learning VisionFlow: Choose Your Path
+
+### 📘 **NEW! Comprehensive Learning-by-Doing Tutorial Series**
+
+**Perfect for developers who want to deeply understand VisionFlow by building something real.**
+
+We've created a complete 3-phase tutorial that takes you from beginner to contributor:
+
+#### **[📖 Start Here: Learning Plan Overview](docs/tutorials/learning-by-doing/README.md)**
+
+---
+
+### Phase 1: Foundation & Confidence
+**⏱️ 1-2 hours | 🎯 Beginner | [Start Phase 1 →](docs/tutorials/learning-by-doing/phase-1-foundation.md)**
+
+Get hands-on experience with VisionFlow's user-facing features:
+- ✅ Deploy VisionFlow with Docker
+- ✅ Create your first 3D knowledge graph
+- ✅ Deploy AI agents and observe continuous analysis
+- ✅ Master 3D navigation and visualization controls
+- ✅ Understand semantic physics in action
+
+**What you'll build**: A working VisionFlow installation with a populated knowledge graph and active AI agents.
+
+---
+
+### Phase 2: Architecture Deep Dive
+**⏱️ 3-4 hours | 🎯 Intermediate | [Start Phase 2 →](docs/tutorials/learning-by-doing/phase-2-architecture.md)**
+
+Explore the codebase and understand how VisionFlow works internally:
+- 🏗️ Trace CQRS operations through Hexagonal Architecture
+- 🧠 Understand the Whelk-rs ontology reasoning pipeline
+- ⚡ Explore GPU compute integration (39 CUDA kernels)
+- 🔌 Comprehend the Binary WebSocket Protocol V2 (36 bytes/node)
+- 📊 Query the SQLite database directly
+
+**What you'll learn**: How to navigate `src/`, understand data flow, and identify components to modify.
+
+---
+
+### Phase 3: Build a Custom Feature
+**⏱️ 4-8 hours | 🎯 Advanced | [Start Phase 3 →](docs/tutorials/learning-by-doing/phase-3-build-feature.md)**
+
+**Capstone Project**: Implement a complete feature spanning all system layers.
+
+Build the `RequiresHighCompute` semantic physics constraint:
+1. **Define ontological constraint** in TOML
+2. **Modify Whelk-rs reasoning pipeline** for inference
+3. **Implement GPU CUDA kernel** for force calculation (optional)
+4. **Update Vue.js/Three.js client** with orange glow + pulsing animation
+5. **Write comprehensive tests** (>80% coverage)
+6. **Document your feature** following project standards
+
+**What you'll build**: A ninth semantic constraint that visually clusters compute-intensive nodes near GPU resources.
+
+**Spans**: Ontology → GPU → Server → Client (full stack mastery!)
+
+---
+
+### 🚀 Quick Reference Guides
+
+Already familiar with VisionFlow? Jump directly to specific topics:
+
+- **[📚 Full Installation Guide](docs/getting-started/01-installation.md)** - Detailed setup instructions with GPU support
+- **[🎯 First Graph Tutorial](docs/getting-started/02-first-graph-and-agents.md)** - Create your first knowledge graph in 10 minutes
 - **[🔧 Configuration Reference](docs/reference/configuration.md)** - Advanced configuration options
+- **[👨‍💻 Developer Guides](docs/guides/developer/readme.md)** - Development workflow and contributing
 
 ---
 
@@ -670,6 +737,10 @@ VisionFlow uses the **Diátaxis** framework for comprehensive, organized documen
 
 ### 🎓 Getting Started (Tutorials)
 Learn by doing with step-by-step tutorials:
+- ⭐ **[Learning-by-Doing Tutorial Series](docs/tutorials/learning-by-doing/README.md)** - **NEW!** Complete 3-phase learning path (8-14 hours)
+  - **[Phase 1: Foundation & Confidence](docs/tutorials/learning-by-doing/phase-1-foundation.md)** - Deploy and use VisionFlow (1-2 hours)
+  - **[Phase 2: Architecture Deep Dive](docs/tutorials/learning-by-doing/phase-2-architecture.md)** - Explore the codebase (3-4 hours)
+  - **[Phase 3: Build a Custom Feature](docs/tutorials/learning-by-doing/phase-3-build-feature.md)** - Implement end-to-end feature (4-8 hours)
 - **[Installation Guide](docs/getting-started/01-installation.md)** - Setup for all platforms
 - **[First Graph & Agents](docs/getting-started/02-first-graph-and-agents.md)** - Create your first visualization
 
